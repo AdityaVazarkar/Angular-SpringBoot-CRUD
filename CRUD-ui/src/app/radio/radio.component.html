@@ -1,0 +1,47 @@
+<div>
+    <mat-radio-group [(ngModel)]="selectedOption">
+      <mat-radio-button value="option1">Option 1</mat-radio-button>
+      <mat-radio-button value="option2">Option 2</mat-radio-button>
+      <mat-radio-button value="option3">Option 3</mat-radio-button>
+    </mat-radio-group>
+  </div>
+  
+  <div *ngIf="selectedOption === 'option1'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 1</mat-label>
+      <input matInput placeholder="Enter value for Option 1">
+    </mat-form-field>
+  </div>
+  
+  <div *ngIf="selectedOption === 'option2'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 2</mat-label>
+      <input matInput placeholder="Enter value for Option 2">
+    </mat-form-field>
+  </div>
+  <div *ngIf="selectedOption === 'option2'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 1</mat-label>
+      <input matInput placeholder="Enter value for Option 1">
+    </mat-form-field>
+  </div>
+  
+  <div *ngIf="selectedOption === 'option3'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 3</mat-label>
+      <input matInput placeholder="Enter value for Option 3">
+    </mat-form-field>
+  </div>
+  <div *ngIf="selectedOption === 'option3'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 2</mat-label>
+      <input matInput placeholder="Enter value for Option 2">
+    </mat-form-field>
+  </div>
+  <div *ngIf="selectedOption === 'option3'">
+    <mat-form-field appearance="fill">
+      <mat-label>Input for Option 1</mat-label>
+      <input matInput placeholder="Enter value for Option 1">
+    </mat-form-field>
+  </div>
+  
